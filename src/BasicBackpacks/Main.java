@@ -100,7 +100,7 @@ public class Main extends JavaPlugin
     }
     if (cmd.getName().equalsIgnoreCase("bbp")) {
       p.sendMessage(ChatColor.GRAY + "BasicBackpacksBETA Created By FrostedWeFall");
-      p.sendMessage(ChatColor.AQUA + "Please report any issues at https://github.com/TheRealFrostedWeFall/BasicBackpacks/issues");
+      p.sendMessage(ChatColor.AQUA + "Please report any issues at https://github.com/FrostedWeFall/BasicBackpacks/issues");
     }
     if (cmd.getName().equalsIgnoreCase("bbhelp")) {
       p.sendMessage(ChatColor.GRAY + "-----+--------------------+-----");
