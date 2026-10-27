@@ -1,0 +1,25 @@
+name: BasicBackpacks
+version: 1.0.0
+main: io.github.frostedwefall.basicbackpacks.BasicBackpacks
+api-version: '26.1'
+author: FrostedWeFall
+description: A simple personal backpack plugin, modernised from the original 2017 project.
+website: https://github.com/FrostedWeFall/BasicBackpacks
+
+commands:
+  backpack:
+    description: Opens your personal backpack.
+    usage: /backpack
+    aliases: [bp]
+    permission: basicbackpacks.use
+  bbp:
+    description: Displays BasicBackpacks plugin information.
+    usage: /bbp
+  bbhelp:
+    description: Displays BasicBackpacks commands.
+    usage: /bbhelp
+
+permissions:
+  basicbackpacks.use:
+    description: Allows a player to open their personal backpack.
+    default: true
