@@ -1,0 +1,3 @@
+# BasicBackpacks stores player inventory data in this file.
+# Do not manually edit the BasicBackpacks section while the server is running.
+BasicBackpacks: {}
